@@ -57,9 +57,7 @@
     "request-promise": "~2.0.1",
     "semver": "~5.3.0",
     "unicode-length": "~2.0.0",
-    "winston": "~2.2.0"
-  },
-  "devDependencies": {
+    "winston": "~2.2.0",
     "chai": "~3.4.1",
     "chai-as-promised": "~5.2.0",
     "mocha": "~2.3.4",
@@ -67,5 +65,6 @@
     "sinon": "~1.17.3",
     "sinon-chai": "~2.8.0",
     "standard": "~8.6.0"
-  }
+  },
+  "devDependencies": {}
 }
