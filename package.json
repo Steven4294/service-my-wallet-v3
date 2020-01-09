@@ -1,7 +1,7 @@
 {
   "name": "blockchain-wallet-service",
   "version": "0.26.3",
-  "license": "AGPL-3.0-or-later",
+  "license" : "(ISC OR GPL-3.0)",
   "description": "Blockchain.info wallet api service",
   "main": "index.js",
   "preferGlobal": true,
