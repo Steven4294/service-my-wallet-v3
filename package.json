@@ -16,8 +16,8 @@
     "blockchain-wallet-service": "./bin/cli.js"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": "10.13.0",
+    "npm": "6.4.1"
   },
   "scripts": {
     "start": "node_modules/nodemon/bin/nodemon.js scripts/start.js",
