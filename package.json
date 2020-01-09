@@ -1,7 +1,7 @@
 {
   "name": "blockchain-wallet-service",
   "version": "0.26.3",
-  "license" : "(ISC OR GPL-3.0)",
+  "license": "(ISC OR GPL-3.0)",
   "description": "Blockchain.info wallet api service",
   "main": "index.js",
   "preferGlobal": true,
@@ -63,7 +63,7 @@
     "chai-as-promised": "~5.2.0",
     "mocha": "~2.3.4",
     "node-env-file": "~0.1.8",
-    "nodemon": "~1.8.1",
+    "nodemon": "^1.8.1",
     "sinon": "~1.17.3",
     "sinon-chai": "~2.8.0",
     "standard": "~8.6.0"
