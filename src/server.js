@@ -34,7 +34,7 @@ app.param('guid', setParam('guid'))
 accountsAPI.param('account', setParam('account'))
 
 app.use(function (req, res) {
-  res.status(404).json({ error: 'Not found' })
+  res.status(404).json({ error: 'Not found v2' })
 })
 
 legacyAPI.use(bodyParser.json())
