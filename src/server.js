@@ -11,6 +11,7 @@ var ecodes = require('./error-codes')
 var api = require('./api')
 var metrics = require('./metrics')
 var warnings = require('./warnings')
+var cors = require('cors')
 
 module.exports = {
   start: start
@@ -23,6 +24,7 @@ var legacyAPI = express()
 var accountsAPI = express()
 
 // Configuration
+app.use(cors())
 app.use('/merchant/:guid', merchantAPI)
 app.use('/api/v2', v2API)
 merchantAPI.use('/', legacyAPI)
